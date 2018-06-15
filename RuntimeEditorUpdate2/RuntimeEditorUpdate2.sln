@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuntimeEditorUpdate2", "RuntimeEditorUpdate2.csproj", "{DAB258AA-7D1B-D19B-2EF8-744D3911EC4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuntimeEditorUpdate2.Editor", "RuntimeEditorUpdate2.Editor.csproj", "{76847421-609B-C718-6BA7-7CD78B45A3BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAB258AA-7D1B-D19B-2EF8-744D3911EC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB258AA-7D1B-D19B-2EF8-744D3911EC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB258AA-7D1B-D19B-2EF8-744D3911EC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB258AA-7D1B-D19B-2EF8-744D3911EC4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76847421-609B-C718-6BA7-7CD78B45A3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76847421-609B-C718-6BA7-7CD78B45A3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76847421-609B-C718-6BA7-7CD78B45A3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76847421-609B-C718-6BA7-7CD78B45A3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

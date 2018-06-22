@@ -62,7 +62,7 @@ class SceneLinkerWindow : EditorWindow
         GUILayout.Label("Link Status: " + Status, EditorStyles.boldLabel);
     }
 
-    private void OnInspectorUpdate()
+    private void Update()
     {
         if (isLinked)
         {
@@ -76,7 +76,35 @@ class SceneLinkerWindow : EditorWindow
             GameObject[] sc1 = EditorSceneManager.GetSceneByName("Scene1").GetRootGameObjects();
             GameObject[] sc2 = EditorSceneManager.GetSceneByName("Scene2").GetRootGameObjects();
 
-            sc2[1].transform.localPosition = sc1[1].transform.localPosition;
+            int size = sc1.Length;
+
+            for (int i = 0; i < size; ++i)
+            {
+                EditorUtility.CopySerializedIfDifferent(sc1[i], sc2[i]);
+
+                //if (sc1[i].transform.hasChanged)
+                //{
+
+
+                //    sc2[i].transform.localPosition = sc1[i].transform.localPosition;
+
+                //}
+
+                Component[] cp1 = sc1[i].GetComponents(typeof(Component));
+                Component[] cp2 = sc2[i].GetComponents(typeof(Component));
+
+                int size2 = cp2.Length;
+
+                for (int j = 0; j < size2; ++j)
+                {
+                    UnityEditorInternal.ComponentUtility.CopyComponent(cp1[j]);
+                    UnityEditorInternal.ComponentUtility.PasteComponentValues(cp2[j]);
+                    //cp2[j] = cp1[j];
+                }
+
+
+            }
+            //sc2[1].transform.localPosition = sc1[1].transform.localPosition;
 
 
         }

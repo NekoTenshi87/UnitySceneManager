@@ -260,18 +260,6 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="KSCommon.Unity2017_3">
-      <HintPath>Assets/KinematicSoup/KSCommon.Unity2017_3.dll</HintPath>
-    </Reference>
-    <Reference Include="KSCommon-Editor.Unity2017_3">
-      <HintPath>Assets/KinematicSoup/Editor/KSCommon-Editor.Unity2017_3.dll</HintPath>
-    </Reference>
-    <Reference Include="KSSceneFusion.Unity2017_3">
-      <HintPath>Assets/KinematicSoup/SceneFusion/KSSceneFusion.Unity2017_3.dll</HintPath>
-    </Reference>
-    <Reference Include="KSSceneFusion-Editor.Unity2017_3">
-      <HintPath>Assets/KinematicSoup/SceneFusion/Editor/KSSceneFusion-Editor.Unity2017_3.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/James/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -302,22 +290,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\SceneLinkerWindow.cs" />
-    <Compile Include="Assets\KinematicSoup\SceneFusion\Editor\Menus\LockMenu.cs" />
-    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\EditorVR\Editor\EditorVRExtension.cs" />
-    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\Ferr2D\Editor\Ferr2DExtension.cs" />
-    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\Ferr2D\Editor\sfFerr2DAdaptorEditor.cs" />
-    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\PlayMaker\Editor\PlayMakerExtension.cs" />
-    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\ProBuilder\Editor\ProBuilderExtension.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\KinematicSoup\SceneFusion\Shaders\BillboardCutout.shader" />
-    <None Include="Assets\KinematicSoup\SceneFusion\Shaders\Cutout.shader" />
-    <None Include="Assets\KinematicSoup\SceneFusion\Shaders\Drag.shader" />
-    <None Include="Assets\KinematicSoup\SceneFusion\Shaders\Drag2D.shader" />
-    <None Include="Assets\KinematicSoup\SceneFusion\Shaders\Lock.shader" />
-    <None Include="Assets\KinematicSoup\SceneFusion\Shaders\Missing.shader" />
-    <None Include="Assets\KinematicSoup\SceneFusion\Stand-Ins\DoNothing.compute" />
-    <None Include="Assets\KinematicSoup\SceneFusion\Stand-Ins\TextAsset.txt" />
+    <Compile Include="Assets\Editor\SceneManagerWindow.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

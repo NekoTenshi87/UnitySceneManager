@@ -1,0 +1,1354 @@
+2018-06-15 12:19:10.7769 [DEBUG] Scene Fusion version 1.7.2-1
+2018-06-15 12:19:13.9350 [DEBUG] Scene Fusion version 1.7.2-1
+2018-06-15 12:20:57.8904 [DEBUG] Scene Fusion version 1.7.2-1
+2018-06-15 12:26:12.7766 [DEBUG] Scene Fusion version 1.7.2-1
+2018-06-15 12:27:23.2110 [DEBUG] Scene Fusion version 1.7.2-1
+2018-06-15 12:27:48.3348 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:27:48.3368 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:27:48.6183 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:27:48.6223 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:27:50.0393 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:27:50.0423 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:27:51.8137 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:27:51.8202 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:27:58.5294 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:27:58.5349 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:27:58.9010 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:27:58.9020 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:28:00.6332 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:28:00.6387 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:28:01.0795 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:28:01.0820 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:28:05.2122 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:28:05.2172 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:28:06.3814 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:28:06.3869 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:28:06.7001 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:28:06.7056 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:28:06.9812 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:28:06.9861 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:28:06.9991 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:28:07.0031 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:28:07.0076 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:28:07.0116 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:28:07.0530 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:28:07.0545 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:28:07.7229 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:28:07.7294 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:28:07.9990 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:28:42.9106 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:28:42.9116 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:28:43.1717 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:28:43.1776 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:28:44.0919 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:28:44.0974 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:28:44.4049 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:28:44.4084 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:28:58.2649 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:28:58.2674 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:28:58.4921 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:28:58.4971 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:01.1005 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:01.1055 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:02.0430 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:02.0480 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:02.0690 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:02.0730 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:02.0779 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:02.0804 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:02.0849 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:02.0879 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:02.0999 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:02.1034 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:06.7556 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:07.1200 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:07.1250 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:09.4012 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:09.4052 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:09.7811 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:09.7876 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:19.8185 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:19.8235 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:20.7529 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:20.7554 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:20.7629 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:20.7649 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:20.8398 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:20.8408 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:21.3631 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:21.3686 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:21.4300 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:21.4310 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:21.8738 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:47.1932 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:47.4485 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:47.4550 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:48.6717 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:48.6772 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:48.7760 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:48.7770 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:49.0319 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:49.0384 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:49.6611 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:49.6676 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:49.8698 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:49.8753 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:49.8817 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:52.9626 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:53.1171 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:53.1241 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:53.7879 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:53.7919 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:53.8747 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:53.8757 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:54.1014 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:54.1079 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:54.4111 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:29:54.4166 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:29:54.4231 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:31:13.7619 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:31:13.7628 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:31:14.0804 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:31:14.0859 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:31:15.0431 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:31:15.0486 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:31:15.8104 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:31:15.8129 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:31:15.8943 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:31:15.8958 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:31:16.2008 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:31:16.2083 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+
+2018-06-15 12:31:16.7368 [ERROR] ArgumentException: Source scene is invalid
+UnityEngine.SceneManagement.SceneManager.MergeScenes (Scene sourceScene, Scene destinationScene) (at C:/buildslave/unity/build/artifacts/generated/common/runtime/SceneManagerBindings.gen.cs:223)
+SceneLinkerWindow.OnGUI () (at Assets/Editor/SceneLinkerWindow.cs:65)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.HostView.Invoke (System.String methodName, System.Object obj) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:295)
+UnityEditor.HostView.Invoke (System.String methodName) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:288)
+UnityEditor.HostView.InvokeOnGUI (Rect onGUIPosition) (at C:/buildslave/unity/build/Editor/Mono/HostView.cs:255)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2018-06-15 12:32:07.6451 [DEBUG] Scene Fusion version 1.7.2-1
+2018-06-15 12:41:24.1032 [DEBUG] Scene Fusion version 1.7.2-1
+2018-06-15 12:43:36.0903 [DEBUG] Scene Fusion version 1.7.2-1
+2018-06-15 12:47:20.5927 [DEBUG] Scene Fusion version 1.7.2-1
+2018-06-15 13:06:42.4474 [DEBUG] Scene Fusion version 1.7.2-1
+2018-06-15 13:07:21.5964 [DEBUG] Scene Fusion version 1.7.2-1
+2018-06-15 13:10:20.5209 [DEBUG] Scene Fusion version 1.7.2-1
+2018-06-15 13:12:21.6840 [DEBUG] Scene Fusion version 1.7.2-1
+2018-06-15 13:32:45.3176 [DEBUG] Scene Fusion version 1.7.2-1
+2018-06-15 13:33:31.7072 [DEBUG] Scene Fusion version 1.7.2-1
+2018-06-15 13:33:31.7646 [DEBUG] Play mode: True, sync in play mode: False
+2018-06-15 13:33:32.2091 [DEBUG] Play mode: False
+2018-06-15 13:35:22.1596 [DEBUG] Scene Fusion version 1.7.2-1
+2018-06-15 13:39:31.3050 [DEBUG] Scene Fusion version 1.7.2-1

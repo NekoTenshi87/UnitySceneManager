@@ -8,17 +8,19 @@ using UnityEditor.SceneManagement;
 
 class SceneLinkerWindow : EditorWindow
 {
-    string SourcePath;
     string SceneSourceFile;
-    string DestinationPath;
     string SceneDestinationFile;
     string Status = "Unlinked";
 
+    bool sc1_exists = false;
+    bool sc2_exists = false;
+
+    Scene sc1;
+    Scene sc2;
+
     bool isLinked = false;
 
-    GameObject[] g_gameObjects;
-
-    [MenuItem("Scene Linker/Window")]
+    [MenuItem("Scene Manager/Linker Window")]
     public static void ShowWindow()
     {
         EditorWindow.GetWindow(typeof(SceneLinkerWindow), false, "Scene Linker", true);
@@ -28,99 +30,177 @@ class SceneLinkerWindow : EditorWindow
     {
         EditorGUI.BeginChangeCheck();
         GUILayout.Label("Link Source", EditorStyles.boldLabel);
-        SourcePath = EditorGUILayout.TextField("Source Path:", SourcePath);
         SceneSourceFile = EditorGUILayout.TextField("Scene Name:", SceneSourceFile);
 
         GUILayout.Label("Link Destination", EditorStyles.boldLabel);
-        DestinationPath = EditorGUILayout.TextField("Destination Path:", DestinationPath);
         SceneDestinationFile = EditorGUILayout.TextField("Scene Name:", SceneDestinationFile);
 
         if (EditorGUI.EndChangeCheck())
         {
-            //UnityEditor.SceneManagement.EditorSceneManager.activeSceneChanged -= ChangedActiveScene;
             isLinked = false;
             Status = "Unlinked";
         }
 
-        if (GUILayout.Button("Link"))
+        GUILayout.Label("Link Status: " + Status, EditorStyles.boldLabel);
+
+        if (isLinked)
         {
-            if (SourcePath != null && DestinationPath != null)
+            GUI.enabled = false;
+        }
+        else
+        {
+            GUI.enabled = true;
+        }
+        bool linkButton = GUILayout.Button("Link");
+
+        if (isLinked)
+        {
+            GUI.enabled = true;
+        }
+        else
+        {
+            GUI.enabled = false;
+        }
+        bool unlinkButton = GUILayout.Button("Unlink");
+
+        GUI.enabled = true;
+
+        if (linkButton && !isLinked)
+        {
+            sc1_exists = File.Exists("Assets/" + SceneSourceFile + ".unity");
+            sc2_exists = File.Exists("Assets/" + SceneDestinationFile + ".unity");
+
+            if (!sc1_exists)
             {
-                if (SceneSourceFile != null && SceneDestinationFile != null)
+                Status = "Invalid Scource scene name!";
+            }
+            else if (!sc2_exists)
+            {
+                Status = "Invalid Destination scene name!";
+            }
+            else
+            {
+                sc1 = EditorSceneManager.GetSceneByName(SceneSourceFile);
+                if (!sc1.IsValid())
                 {
-                    //UnityEditor.SceneManagement.EditorSceneManager.activeSceneChanged += ChangedActiveScene;
-
-                    //g_gameObjects = EditorSceneManager.GetSceneByName("Scene2").GetRootGameObjects();
-
-
-                    isLinked = true;
-                    Status = "Linked";
+                    sc1 = EditorSceneManager.OpenScene("Assets/" + SceneSourceFile + ".unity", OpenSceneMode.Additive);
                 }
+
+                sc2 = EditorSceneManager.GetSceneByName(SceneDestinationFile);
+                if (!sc2.IsValid())
+                {
+                    sc2 = EditorSceneManager.OpenScene("Assets/" + SceneDestinationFile + ".unity", OpenSceneMode.Additive);
+                }
+
+                int sceneCount = EditorSceneManager.sceneCount;
+
+                if (sceneCount > 0)
+                {
+                    EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
+
+                    List<int> sc_index = new List<int>();
+
+                    for (int i = 0; i < sceneCount; ++i)
+                    {
+                        if (EditorSceneManager.GetSceneAt(i) != sc1 &&
+                            EditorSceneManager.GetSceneAt(i) != sc2)
+                        {
+                            sc_index.Add(i);
+                        }
+                    }
+
+                    foreach (int si in sc_index)
+                    {
+                        EditorSceneManager.CloseScene(EditorSceneManager.GetSceneAt(si), true);
+                    }
+                }
+
+                isLinked = true;
+                Status = "Linked";
             }
         }
 
-        GUILayout.Label("Link Status: " + Status, EditorStyles.boldLabel);
+        if (unlinkButton && isLinked)
+        {
+            isLinked = false;
+            Status = "Unlinked";
+        }
     }
 
     private void Update()
     {
         if (isLinked)
         {
-            /*
-            Scene scene_copy = UnityEditor.SceneManagement.EditorSceneManager.GetSceneByName("Scene1");
-            UnityEditor.SceneManagement.EditorSceneManager.UnloadScene("Scene2");
-            UnityEditor.SceneManagement.EditorSceneManager.SaveScene(scene_copy, "Assets/Scene2.unity", true);*/
+            //GameObject[] obj = Selection.gameObjects;
+            //int[] obj_id = Selection.instanceIDs;
 
-            //GameObject sc1 = EditorSceneManager.GetSceneByName("Scene2").GetRootGameObjects().g  GameObject.Find("New Sprite");
-            //GameObject sc2 = g_gameObjects.
-            GameObject[] sc1 = EditorSceneManager.GetSceneByName("Scene1").GetRootGameObjects();
-            GameObject[] sc2 = EditorSceneManager.GetSceneByName("Scene2").GetRootGameObjects();
+            //foreach (GameObject o in obj)
+            //{
+            //    if (Selection.Contains(o))
+            //    {
+            //        Debug.Log("ID: " + o.GetInstanceID() + " belongs to object: " + o.name);
+            //    }
+            //}
 
-            int size = sc1.Length;
+            GameObject[] sc1_objs = sc1.GetRootGameObjects();
+            GameObject[] sc2_objs = sc2.GetRootGameObjects();
 
-            for (int i = 0; i < size; ++i)
+            //foreach(GameObject go1 in obj)
+            //{
+            //    foreach(GameObject go2 in sc2)
+            //    {
+            //if(go2 == go1)
+            //        if(go1.Equals(go2))
+            //        {
+            //            Debug.Log("Same Object " + go1.name + " == " + go2.name);
+            //        }
+            //        else
+            //        {
+            //            Debug.Log("Invalid " + go1.name + " != " + go2.name);
+            //        }
+            //    }
+            //}
+
+            
+            int size1 = sc1_objs.Length;/*
+            int size2 = sc2_objs.Length;
+            int size_min = Mathf.Min(sc1_objs.Length, sc2_objs.Length);
+            int size_max = Mathf.Max(sc1_objs.Length, sc2_objs.Length);
+
+            if (size1 < size2)
             {
-                EditorUtility.CopySerializedIfDifferent(sc1[i], sc2[i]);
+                // 
+            }
+            else if (size1 > size2)
+            {
 
-                //if (sc1[i].transform.hasChanged)
-                //{
+            }
+            else
+            {
 
+            }
+            */
 
-                //    sc2[i].transform.localPosition = sc1[i].transform.localPosition;
+            for (int i = 0; i < size1; ++i)
+            {
+                EditorUtility.CopySerializedIfDifferent(sc1_objs[i], sc2_objs[i]);
 
-                //}
+                Component[] cp1 = sc1_objs[i].GetComponents(typeof(Component));
+                Component[] cp2 = sc2_objs[i].GetComponents(typeof(Component));
 
-                Component[] cp1 = sc1[i].GetComponents(typeof(Component));
-                Component[] cp2 = sc2[i].GetComponents(typeof(Component));
+                int size22 = cp2.Length;
 
-                int size2 = cp2.Length;
-
-                for (int j = 0; j < size2; ++j)
+                for (int j = 0; j < size22; ++j)
                 {
                     UnityEditorInternal.ComponentUtility.CopyComponent(cp1[j]);
                     UnityEditorInternal.ComponentUtility.PasteComponentValues(cp2[j]);
-                    //cp2[j] = cp1[j];
                 }
-
-
             }
-            //sc2[1].transform.localPosition = sc1[1].transform.localPosition;
 
+            //int size2 = Mathf.Max(sc1_objs.Length, sc2_objs.Length);
 
+            //for (int j = size; )
         }
     }
-    /*
-    private void ChangedActiveScene(Scene current, Scene next)
-    {
-        string currentName = current.name;
-
-        if (currentName == null)
-        {
-            // Scene1 has been removed
-            currentName = "Replaced";
-        }
-
-        Debug.Log("Scenes: " + currentName + ", " + next.name);
-    }*/
 }
 

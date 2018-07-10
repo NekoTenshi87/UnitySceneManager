@@ -301,6 +301,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\SceneLinkerWindow.cs" />
     <Compile Include="Assets\KinematicSoup\SceneFusion\Editor\Menus\LockMenu.cs" />
     <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\EditorVR\Editor\EditorVRExtension.cs" />
     <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\Ferr2D\Editor\Ferr2DExtension.cs" />

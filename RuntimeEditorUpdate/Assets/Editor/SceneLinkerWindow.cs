@@ -26,6 +26,31 @@ class SceneLinkerWindow : EditorWindow
         EditorWindow.GetWindow(typeof(SceneLinkerWindow), false, "Scene Linker", true);
     }
 
+    public void OnEnable()
+    {
+        //EditorSceneManager.sceneSaving += OnSceneSaving;
+        Undo.postprocessModifications += OnPostProcessModifications;
+    }
+
+    public void OnDisable()
+    {
+        //EditorSceneManager.sceneSaving -= OnSceneSaving;
+        Undo.postprocessModifications -= OnPostProcessModifications;
+    }
+
+    UndoPropertyModification[] OnPostProcessModifications(UndoPropertyModification[] propertyModifications)
+    {
+        foreach (UndoPropertyModification mod in propertyModifications)
+        {
+            Debug.Log("Modified: " + mod.currentValue.propertyPath + 
+                      " Value: " + mod.currentValue.value + 
+                      " Object: " + mod.currentValue.target.name + 
+                      " ObjectID: " + mod.currentValue.target.GetInstanceID() + 
+                      " Component: " + EditorUtility.InstanceIDToObject(mod.currentValue.target.GetInstanceID()).GetType().Name);
+        }
+        return propertyModifications;
+    }
+
     private void OnGUI()
     {
         EditorGUI.BeginChangeCheck();
@@ -131,16 +156,14 @@ class SceneLinkerWindow : EditorWindow
     {
         if (isLinked)
         {
-            //GameObject[] obj = Selection.gameObjects;
-            //int[] obj_id = Selection.instanceIDs;
+            
+            GameObject[] obj = Selection.gameObjects;
+            int[] obj_id = Selection.instanceIDs;
 
-            //foreach (GameObject o in obj)
-            //{
-            //    if (Selection.Contains(o))
-            //    {
-            //        Debug.Log("ID: " + o.GetInstanceID() + " belongs to object: " + o.name);
-            //    }
-            //}
+            foreach (GameObject o in obj)
+            {
+                //Debug.Log("ID: " + o.GetInstanceID() + " belongs to object: " + o.name);
+            }
 
             GameObject[] sc1_objs = sc1.GetRootGameObjects();
             GameObject[] sc2_objs = sc2.GetRootGameObjects();

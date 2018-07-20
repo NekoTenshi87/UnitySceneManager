@@ -24,7 +24,8 @@ public class SceneManagerWindow : EditorWindow
     string ip_addr = "127.0.0.1";
     string ip_port = "4444";
 
-    string[] scenesPaths;
+    string[] scenesPath;
+    string[] scenesName;
 
     [MenuItem("Scene Manager/Sessions")]
     public static void ShowWindow()
@@ -55,7 +56,7 @@ public class SceneManagerWindow : EditorWindow
                         // TODO: Start Server
 
 
-                        EditorSceneManager.OpenScene(scenesPaths[index]);
+                        EditorSceneManager.OpenScene(scenesPath[index]);
                     }
 
                     break;
@@ -71,7 +72,7 @@ public class SceneManagerWindow : EditorWindow
                         // TODO: Start Host
 
 
-                        EditorSceneManager.OpenScene(scenesPaths[index]);
+                        EditorSceneManager.OpenScene(scenesPath[index]);
                     }
 
                     break;
@@ -87,7 +88,7 @@ public class SceneManagerWindow : EditorWindow
                         // TODO: Join Host
 
 
-                        EditorSceneManager.OpenScene(scenesPaths[index]);
+                        EditorSceneManager.OpenScene(scenesPath[index]);
                     }
 
                     break;
@@ -104,17 +105,19 @@ public class SceneManagerWindow : EditorWindow
     private void FindScenePaths()
     {
         string[] scenesGUIDs = AssetDatabase.FindAssets("t:Scene");
-        scenesPaths = new string[scenesGUIDs.Length];
+        scenesPath = new string[scenesGUIDs.Length];
+        scenesName = new string[scenesGUIDs.Length];
 
         for (int i = 0; i < scenesGUIDs.Length; ++i)
         {
-            scenesPaths[i] = AssetDatabase.GUIDToAssetPath(scenesGUIDs[i]);
+            scenesPath[i] = AssetDatabase.GUIDToAssetPath(scenesGUIDs[i]);
+            scenesName[i] = Path.GetFileNameWithoutExtension(scenesPath[i]);
         }
     }
 
     private void ShowScenePaths()
     {
-        index = EditorGUILayout.Popup(index, scenesPaths);
+        index = EditorGUILayout.Popup(index, scenesName);
     }
 
     private void ShowIPAddr()

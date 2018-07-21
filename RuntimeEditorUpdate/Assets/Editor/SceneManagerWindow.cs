@@ -81,6 +81,8 @@ public class SceneManagerWindow : EditorWindow
             if (GUILayout.Button("Leave Server"))
             {
                 // TODO: Join Host
+                SceneLinkerWindow window = (SceneLinkerWindow)lobby;
+                window.Scene_Linker.ResetNewScene();
                 lobby.Close();
 
                 service = (int)ServerType.None;

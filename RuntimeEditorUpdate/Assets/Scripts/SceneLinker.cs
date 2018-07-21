@@ -71,7 +71,7 @@ public class SceneLinker
                 }
             }*/
         }
-
+        
 
         Client.Update();
         Server.Update();
@@ -88,7 +88,6 @@ public class SceneLinker
         Undo.postprocessModifications -= OnPostProcessModifications;
         Client.Close();
         Server.Close();
-        EditorSceneManager.NewScene(NewSceneSetup.DefaultGameObjects, NewSceneMode.Single);
     }
 
     public void Display()
@@ -294,6 +293,11 @@ public class SceneLinker
     {
             SerializedObject ser_obj = new UnityEditor.SerializedObject(mod.target);
             return ser_obj.FindProperty(mod.propertyPath);
+    }
+
+    public void ResetNewScene()
+    {
+        EditorSceneManager.NewScene(NewSceneSetup.DefaultGameObjects, NewSceneMode.Single);
     }
 }
 

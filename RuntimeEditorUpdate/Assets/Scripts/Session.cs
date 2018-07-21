@@ -133,6 +133,8 @@ public class Session
 
             ser_obj.CopyFromSerializedProperty(msg.prop);
             ser_obj.ApplyModifiedPropertiesWithoutUndo();
+
+            EditorSceneManager.MarkSceneDirty(m_scene);
         }
     }
 
@@ -189,9 +191,14 @@ public class Session
 
     public static bool operator !=(Session lhs, Session rhs)
     {
-        if (lhs.m_scene != rhs.m_scene)
+        return !(lhs == rhs);
+    }
+
+    public static implicit operator bool(Session exists)
+    {
+        if (exists is Session)
         {
-            return true;
+            return exists.IsValid();
         }
 
         return false;

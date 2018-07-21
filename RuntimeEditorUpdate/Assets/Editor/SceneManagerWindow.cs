@@ -8,26 +8,29 @@ using UnityEditor.SceneManagement;
 
 public class SceneManagerWindow : EditorWindow
 {
-    private bool initScenes = true;
-    private int index = 0;
+    //private bool initScenes = true;
+    //private int index = 0;
     private enum ServerType
     {
+        None,
         Server,
-        Host,
         Client
     };
 
-    string[] service_names = new string[] { "Server", "Host", "Client" };
+    //string[] service_names = new string[] { "Server", "Host", "Client" };
 
     int service = 0;
 
     string ip_addr = "127.0.0.1";
     string ip_port = "4444";
+    string nick_name;
 
-    string[] scenesPath;
-    string[] scenesName;
+    EditorWindow lobby;
 
-    [MenuItem("Scene Manager/Sessions")]
+    //string[] scenesPath;
+    //string[] scenesName;
+
+    [MenuItem("Collaborate/Scene Manager")]
     public static void ShowWindow()
     {
         EditorWindow.GetWindow(typeof(SceneManagerWindow), false, "Scene Manager", true);
@@ -35,64 +38,53 @@ public class SceneManagerWindow : EditorWindow
 
     private void OnGUI()
     {
+        /*
         if (initScenes)
         {
             FindScenePaths();
             initScenes = false;
+        }*/
+
+        if (service != (int)ServerType.Server)
+        {
+            if (GUILayout.Button("Start New Server"))
+            {
+                // TODO: Start Server
+
+                service = (int)ServerType.Server;
+            }
+        }
+        else
+        {
+            if (GUILayout.Button("Stop Server"))
+            {
+                // TODO: Start Server
+
+                service = (int)ServerType.None;
+            }
         }
 
-        GUILayout.Label("Service Type", EditorStyles.boldLabel);
-        service = EditorGUILayout.Popup(service, service_names);
+        ShowIPAddr();
 
-        switch(service)
+        if (service != (int)ServerType.Client)
         {
-            case (int)ServerType.Server:
-                {
-                    ShowScenePaths();
-                    ShowIPAddr();
+            if (GUILayout.Button("Join Server"))
+            {
+                // TODO: Join Host
+                lobby = EditorWindow.GetWindow(typeof(SceneLinkerWindow), false, "Session Lobby", true);
 
-                    if (GUILayout.Button("Start Server"))
-                    {
-                        // TODO: Start Server
+                service = (int)ServerType.Client;
+            }
+        }
+        else
+        {
+            if (GUILayout.Button("Leave Server"))
+            {
+                // TODO: Join Host
+                lobby.Close();
 
-
-                        EditorSceneManager.OpenScene(scenesPath[index]);
-                    }
-
-                    break;
-                }
-
-            case (int)ServerType.Host:
-                {
-                    ShowScenePaths();
-                    ShowIPAddr();
-
-                    if (GUILayout.Button("Start Host"))
-                    {
-                        // TODO: Start Host
-
-
-                        EditorSceneManager.OpenScene(scenesPath[index]);
-                    }
-
-                    break;
-                }
-
-            case (int)ServerType.Client:
-                {
-                    ShowScenePaths();
-                    ShowIPAddr();
-
-                    if (GUILayout.Button("Join Host"))
-                    {
-                        // TODO: Join Host
-
-
-                        EditorSceneManager.OpenScene(scenesPath[index]);
-                    }
-
-                    break;
-                }
+                service = (int)ServerType.None;
+            }
         }
 
     }
@@ -101,7 +93,7 @@ public class SceneManagerWindow : EditorWindow
     {
         //NetworkManagerEditor.
     }
-
+    /*
     private void FindScenePaths()
     {
         string[] scenesGUIDs = AssetDatabase.FindAssets("t:Scene");
@@ -118,11 +110,12 @@ public class SceneManagerWindow : EditorWindow
     private void ShowScenePaths()
     {
         index = EditorGUILayout.Popup(index, scenesName);
-    }
+    }*/
 
     private void ShowIPAddr()
     {
         ip_addr = EditorGUILayout.TextField("IP Address:", ip_addr);
         ip_port = EditorGUILayout.TextField("Port:", ip_port);
+        nick_name = EditorGUILayout.TextField("Nickname:", nick_name);
     }
 }

@@ -16,6 +16,9 @@ public class SceneLinker
     bool isLinked = false;
     bool isReset = false;
 
+    int scene_index = 0;
+    string[] scene_names;
+
     bool sc1_exists = false;
 
     SceneManagerServer Server = new SceneManagerServer();
@@ -31,6 +34,8 @@ public class SceneLinker
 
         Server.AddClient(Client);
         Client.SetServer(Server);
+
+        scene_names = Server.GetListOfAllSceneNames();
     }
 
     public void Update()
@@ -83,13 +88,16 @@ public class SceneLinker
         Undo.postprocessModifications -= OnPostProcessModifications;
         Client.Close();
         Server.Close();
+        EditorSceneManager.NewScene(NewSceneSetup.DefaultGameObjects, NewSceneMode.Single);
     }
 
     public void Display()
     {
         EditorGUI.BeginChangeCheck();
-        GUILayout.Label("Link Source", EditorStyles.boldLabel);
-        SceneServerFile = EditorGUILayout.TextField("Scene Name:", SceneServerFile);
+        GUILayout.Label("Pick a Session", EditorStyles.boldLabel);
+        //SceneServerFile = EditorGUILayout.TextField("Scene Name:", SceneServerFile);
+        scene_index = EditorGUILayout.Popup(scene_index, scene_names);
+        SceneServerFile = scene_names[scene_index];
 
         if (EditorGUI.EndChangeCheck())
         {
@@ -120,7 +128,7 @@ public class SceneLinker
         {
             GUI.enabled = true;
         }
-        bool linkButton = GUILayout.Button("Link");
+        bool linkButton = GUILayout.Button("Join");
 
         if (isLinked)
         {
@@ -130,7 +138,7 @@ public class SceneLinker
         {
             GUI.enabled = false;
         }
-        bool unlinkButton = GUILayout.Button("Unlink");
+        bool unlinkButton = GUILayout.Button("Leave");
 
         GUI.enabled = true;
 

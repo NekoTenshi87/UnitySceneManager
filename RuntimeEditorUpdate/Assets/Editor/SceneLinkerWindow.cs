@@ -658,31 +658,31 @@ class EditorSceneLinker
 
 class SceneLinkerWindow : EditorWindow
 {
-    SceneLinker SL = new SceneLinker();
-
+    public SceneLinker Scene_Linker = new SceneLinker();
+    /*
     [MenuItem("Scene Manager/Linker Window")]
     public static void ShowWindow()
     {
         EditorWindow.GetWindow(typeof(SceneLinkerWindow), false, "Scene Linker", true);
-    }
+    }*/
 
     public void OnEnable()
     {
-        SL.Init();
+        Scene_Linker.Init();
     }
 
     public void OnDisable()
     {
-        SL.Close();
+        Scene_Linker.Close();
     }
 
     private void OnGUI()
     {
-        SL.Display();
+        Scene_Linker.Display();
     }
 
     private void Update()
     {
-        SL.Update();
+        Scene_Linker.Update();
     }
 }

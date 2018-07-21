@@ -61,6 +61,7 @@ public class SceneManagerServer
 
     Dictionary<string, string> m_guids_to_path = new Dictionary<string, string>();
     Dictionary<string, string> m_name_to_path = new Dictionary<string, string>();
+    string[] m_scenesNames;
     SessionManager m_session_mgr = new SessionManager();
 
     Queue<JoinMessage> m_join_messages = new Queue<JoinMessage>();
@@ -99,7 +100,7 @@ public class SceneManagerServer
                 s = m_session_mgr.CreateSession(m_name_to_path[msg.scene_name], OpenSceneMode.Additive);
             }
 
-            if (s.IsValid())
+            if (s)
             {
                 s.AddClient(msg.client);
 
@@ -116,7 +117,7 @@ public class SceneManagerServer
 
             Session s = m_session_mgr.GetSessionBySceneName(msg.scene_name);
 
-            if (s.IsValid())
+            if (s)
             {
                 s.RemoveClient(msg.client);
 
@@ -158,7 +159,7 @@ public class SceneManagerServer
 
             Session s = m_session_mgr.GetSessionBySceneName(msg.scene_name);
 
-            if (s.IsValid())
+            if (s)
             {
                 s.LockObject(msg.object_id, msg.lock_info.client_info);
 
@@ -175,7 +176,7 @@ public class SceneManagerServer
 
             Session s = m_session_mgr.GetSessionBySceneName(msg.scene_name);
 
-            if (s.IsValid())
+            if (s)
             {
                 s.UnlockObject(msg.object_id, msg.lock_info.client_info);
 
@@ -192,7 +193,7 @@ public class SceneManagerServer
 
             Session s = m_session_mgr.GetSessionBySceneName(msg.scene_name);
 
-            if (s.IsValid())
+            if (s)
             {
                 s.UpdateObject(msg);
 
@@ -215,12 +216,28 @@ public class SceneManagerServer
     private void InitScenes()
     {
         string[] GUIDs = AssetDatabase.FindAssets("t:Scene");
+        List<string> scene_names = new List<string>();
 
-        foreach (string s in GUIDs)
+        for (int i = 0; i < GUIDs.Length; ++i)
         {
-            m_guids_to_path[s] = AssetDatabase.GUIDToAssetPath(s);
-            m_name_to_path[Path.GetFileNameWithoutExtension(m_guids_to_path[s])] = m_guids_to_path[s];
+            string path = AssetDatabase.GUIDToAssetPath(GUIDs[i]);
+            string name = Path.GetFileNameWithoutExtension(path);
+            if (name != "Session")
+            {
+                m_guids_to_path[GUIDs[i]] = path;
+                scene_names.Add(name);
+                m_name_to_path[name] = path;
+            }
         }
+
+        m_scenesNames = new string[scene_names.Count];
+
+        for (int i = 0; i < m_scenesNames.Length; ++i)
+        {
+            m_scenesNames[i] = scene_names[0];
+            scene_names.RemoveAt(0);
+        }
+
     }
 
     public void RefreshSceneGUIDs()
@@ -235,20 +252,11 @@ public class SceneManagerServer
             }
         }
     }
-    /*
+    
     public string[] GetListOfAllSceneNames()
     {
-        string[] scene_names = new string[sessions.Count];
-
-        int i = 0;
-
-        foreach (KeyValuePair<string, SessionInfo> pair in sessions)
-        {
-            scene_names[i] = Path.GetFileNameWithoutExtension(AssetDatabase.GUIDToAssetPath(pair.Key));
-        }
-
-        return scene_names;
-    }*/
+        return m_scenesNames;
+    }
 
     public void SendJoinMsg(SceneManagerClient client, JoinMessage msg)
     {
